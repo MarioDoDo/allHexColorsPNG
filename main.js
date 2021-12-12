@@ -6,7 +6,6 @@ permut(arr, "", arr.length, 6);
 
 function permut(arr,prefix,n,k)
 {
-
     if (k === 0)
     {
         const canvas = createCanvas(100, 100);
